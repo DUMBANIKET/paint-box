@@ -16,7 +16,7 @@ const RESOLUTIONS: Resolution[] = [
 
 export default function Home() {
   const [resolution, setResolution] = useState<Resolution>(RESOLUTIONS[1]);
-  const [pixelSize, setPixelSize] = useState(10);
+  const [pixelSize] = useState(10);
   const [grid, setGrid] = useState<string[]>(Array(resolution.width * resolution.height).fill("#1a1a1a"));
   const [currentColor, setCurrentColor] = useState("#ffffff");
   const [undoStack, setUndoStack] = useState<string[][]>([]);
