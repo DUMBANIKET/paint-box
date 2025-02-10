@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imageRendering-pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+:root {
+  --rt-color-dark: #1f2937;
+  --rt-opacity: 0.9;
+}
+
+
+
+/* Custom cursors */
+.cursor-brush {
+  cursor: crosshair;
+}
+
+.cursor-eraser {
+  cursor: cell;
+}
+
+.cursor-fill {
+  cursor: crosshair;
+}
